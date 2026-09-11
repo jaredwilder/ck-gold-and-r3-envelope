@@ -33,7 +33,7 @@ github.com/jaredwilder/erdos-close-campaigns.
 
 ## The C_k gold round
 
-`gold-round/runs/` holds 36 campaign runs, OCG-001 through OCG-144.
+`gold-round/runs/` holds **36 campaign runs**. Their ids run from OCG-001 to OCG-144 but are **not contiguous** -- the 36 present are 001-003, 013, 014, 017, 037, 040, 049, 060, 063, 084, 097-108, and 133-144. Read the directory, not the range.
 
 Every one carries verdict **`BOUNDED_EVIDENCE`** with an explicit `executionBoundary` naming the
 exact universe it ran in. OCG-001, for instance, records
