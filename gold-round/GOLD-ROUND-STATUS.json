@@ -1,0 +1,267 @@
+{
+  "schema": "oracle.gold-round.status.v1",
+  "campaignId": "gold-round-20260729",
+  "status": "COMPLETED",
+  "startedAt": "2026-07-29T20:22:23.190947+00:00",
+  "total": 36,
+  "completed": 36,
+  "boundedEvidence": 36,
+  "errors": 0,
+  "stopped": false,
+  "paused": false,
+  "runs": [
+    {
+      "id": "OCG-097",
+      "rank": 1,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-097/RESULT.json",
+      "resultHash": "sha256:a1184055a30215e423dc87c55c7b3ef2b6d26ee9d32b24a716261d32b334a34b"
+    },
+    {
+      "id": "OCG-098",
+      "rank": 2,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-098/RESULT.json",
+      "resultHash": "sha256:367ad0a2ef99e11f3bbe0e7e35c07a962f004846460d00cbb07fe491f73a543c"
+    },
+    {
+      "id": "OCG-099",
+      "rank": 3,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-099/RESULT.json",
+      "resultHash": "sha256:fd9e02db7fa6928e5842bbefd47c2be8bce0d77e8522ea4eeed6117b6d393fbd"
+    },
+    {
+      "id": "OCG-100",
+      "rank": 4,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-100/RESULT.json",
+      "resultHash": "sha256:98876a54e84dd3662c22cfc93524f87006ca47f74fbf4ffd8366d3157824d571"
+    },
+    {
+      "id": "OCG-101",
+      "rank": 5,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-101/RESULT.json",
+      "resultHash": "sha256:580af52a428afefb06024aad30c82d9418410379e202f189b375c3be389d208e"
+    },
+    {
+      "id": "OCG-102",
+      "rank": 6,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-102/RESULT.json",
+      "resultHash": "sha256:5033b29c4e73c6240cfbd6b8bb2fb5bb502a541d808d46dee1a4b190e95422c9"
+    },
+    {
+      "id": "OCG-103",
+      "rank": 7,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-103/RESULT.json",
+      "resultHash": "sha256:1898fca4b2e07db23b5229da824524d8ab5a921ec5c48ab158b141ad9394dcde"
+    },
+    {
+      "id": "OCG-104",
+      "rank": 8,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-104/RESULT.json",
+      "resultHash": "sha256:597672c67fa16c1183fc8d1a1b645ee8059e37d4a97f282bb69bdeafd3185f39"
+    },
+    {
+      "id": "OCG-105",
+      "rank": 9,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-105/RESULT.json",
+      "resultHash": "sha256:e412b5843cca6d50ae81d1b338b8028c3466a80059cedd13abae5ac74247e487"
+    },
+    {
+      "id": "OCG-106",
+      "rank": 10,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-106/RESULT.json",
+      "resultHash": "sha256:8bb7c46fbac249bf70eb96c4a95c6bb89122193ac3e22f14846cc36b8c515acc"
+    },
+    {
+      "id": "OCG-107",
+      "rank": 11,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-107/RESULT.json",
+      "resultHash": "sha256:fb769ecbfc2e6fa21fbaaea59b848954bcd89e26c7f7956be0cf9c7f63ecc919"
+    },
+    {
+      "id": "OCG-108",
+      "rank": 12,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-108/RESULT.json",
+      "resultHash": "sha256:1bff8429c09418231f1735ee5f5e4b07bb62a1c84cef5d5d3e85317d177ae2c3"
+    },
+    {
+      "id": "OCG-133",
+      "rank": 13,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-133/RESULT.json",
+      "resultHash": "sha256:b9ca74f813f9fee6c276cedd6354f2d6b0b1b9ff630af9203ee2bde4cc26a5fa"
+    },
+    {
+      "id": "OCG-134",
+      "rank": 14,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-134/RESULT.json",
+      "resultHash": "sha256:77d52bfbc230e78ab70c4ed8b94d9c9ab8aef0643e1de3e6373ba20a15b02cfa"
+    },
+    {
+      "id": "OCG-135",
+      "rank": 15,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-135/RESULT.json",
+      "resultHash": "sha256:601f7824185f0466f2a62bc9339eda94b5335da954c2d8412c1dfeff68e71b13"
+    },
+    {
+      "id": "OCG-136",
+      "rank": 16,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-136/RESULT.json",
+      "resultHash": "sha256:59de648e8fa77a5ca05c8aadbe504a6d8197d45e4a8686c159859a304427d702"
+    },
+    {
+      "id": "OCG-137",
+      "rank": 17,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-137/RESULT.json",
+      "resultHash": "sha256:1782d8e8cf7f5ca3e135a27501e9d31a724e3a590c22747a46373e4807860c7e"
+    },
+    {
+      "id": "OCG-138",
+      "rank": 18,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-138/RESULT.json",
+      "resultHash": "sha256:b0c9a8d8b06d5b124ebe43717ce3431b0172c447499f4e43417c94ed6c02384a"
+    },
+    {
+      "id": "OCG-139",
+      "rank": 19,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-139/RESULT.json",
+      "resultHash": "sha256:30233209b1b2adbfa44f297dc6bb84ee70a51f12695cf866c0764c981077a386"
+    },
+    {
+      "id": "OCG-140",
+      "rank": 20,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-140/RESULT.json",
+      "resultHash": "sha256:3e53b24852c931dda58b1457f55f007ffbfaeba225a276bb5a8039b049b084a4"
+    },
+    {
+      "id": "OCG-141",
+      "rank": 21,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-141/RESULT.json",
+      "resultHash": "sha256:f87d543c803a25541b7660a602cfe0ce421504851c830623413d7a56d1e1dd55"
+    },
+    {
+      "id": "OCG-142",
+      "rank": 22,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-142/RESULT.json",
+      "resultHash": "sha256:010615c93e1b1790a4e1a391981b530c5572cc59d4dcce0b208f54c1d8ea45d2"
+    },
+    {
+      "id": "OCG-143",
+      "rank": 23,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-143/RESULT.json",
+      "resultHash": "sha256:8db726f1cdc2edb93b994ba13de108ebd5259887925f19d05a6c9633bdd1292c"
+    },
+    {
+      "id": "OCG-144",
+      "rank": 24,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-144/RESULT.json",
+      "resultHash": "sha256:e545e2f4d641e0458262486a085fc12d0143cefa24e154d81940fb3f11c3263a"
+    },
+    {
+      "id": "OCG-001",
+      "rank": 25,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-001/RESULT.json",
+      "resultHash": "sha256:96c950d5b71c941c18fbd56df7c92cd98323a0c280a7b1ac7c99eb164e18f6e4"
+    },
+    {
+      "id": "OCG-002",
+      "rank": 26,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-002/RESULT.json",
+      "resultHash": "sha256:a2670d3b756cf6a7ac8b55377e49f18fe197b7d08278a3abe539621625cb9706"
+    },
+    {
+      "id": "OCG-003",
+      "rank": 27,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-003/RESULT.json",
+      "resultHash": "sha256:a117a5a531c4a016f2f7b48bf49c549fcf2dfe64426f841fd5b0dbcbebb1d1fc"
+    },
+    {
+      "id": "OCG-013",
+      "rank": 28,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-013/RESULT.json",
+      "resultHash": "sha256:6fee9d7a08723fdb772d58174ebb8a25942efc60ca729a4109b667a16285b79f"
+    },
+    {
+      "id": "OCG-014",
+      "rank": 29,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-014/RESULT.json",
+      "resultHash": "sha256:007a2791c778f9398395410cce916c8e9a6c7e7cc1c1ddd421e61be992edbd88"
+    },
+    {
+      "id": "OCG-017",
+      "rank": 30,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-017/RESULT.json",
+      "resultHash": "sha256:f599327fc48d789a19732b8e56b540b89b41476c57dcd51d9388d49b8385b684"
+    },
+    {
+      "id": "OCG-037",
+      "rank": 31,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-037/RESULT.json",
+      "resultHash": "sha256:de4842d0f8b620de73e35b337aa4cc7551c21e2100e201a5b83585239be005b5"
+    },
+    {
+      "id": "OCG-040",
+      "rank": 32,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-040/RESULT.json",
+      "resultHash": "sha256:7d389dec902ea22e1e0a2296827a841f894cf2adaf6ecf05bf9fae7f3c63d5d9"
+    },
+    {
+      "id": "OCG-049",
+      "rank": 33,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-049/RESULT.json",
+      "resultHash": "sha256:76db9f17a9fbf645ad98b5475ad57de2eb13f28d9a5f5e1cfad33bbbc349344c"
+    },
+    {
+      "id": "OCG-060",
+      "rank": 34,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-060/RESULT.json",
+      "resultHash": "sha256:0381937476bbe81089af7522f46cdbf431f632b468aad46cc4cf6c138584bfd2"
+    },
+    {
+      "id": "OCG-063",
+      "rank": 35,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-063/RESULT.json",
+      "resultHash": "sha256:d051467d538b66e42659df0a98032b03c719515a5a17a260b1b87cadb3adf88d"
+    },
+    {
+      "id": "OCG-084",
+      "rank": 36,
+      "verdict": "BOUNDED_EVIDENCE",
+      "result": "oracle/state/gold-round-20260729/runs/OCG-084/RESULT.json",
+      "resultHash": "sha256:9ce85539c8869f4b86e0dfee2320d90c085a6eac09bb7e018a7f4534ccfc96c2"
+    }
+  ],
+  "finishedAt": "2026-07-29T20:22:23.397449+00:00"
+}

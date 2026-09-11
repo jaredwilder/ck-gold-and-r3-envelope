@@ -1,0 +1,561 @@
+{
+  "oca_id": "OCG-105",
+  "verdict": "BOUNDED_EVIDENCE",
+  "executionBoundary": {
+    "kind": "bounded_canonical_Ck_micro_atlas",
+    "k": 3,
+    "nRange": [
+      4,
+      8
+    ],
+    "tupleSemantics": "distinct ordered variables; forbidden support canonicalized"
+  },
+  "operatorTrace": [
+    {
+      "operator": "signature_match",
+      "adapterFamily": "STRUCTURAL_REPLAY",
+      "status": "EXECUTED_ON_BOUNDARY",
+      "evidence": {
+        "atlasHash": "sha256:073ced84312db248701fc95716041cc0de53318389b26cc33f9981233cdc5bfd",
+        "boundary": {
+          "kind": "bounded_canonical_Ck_micro_atlas",
+          "k": 3,
+          "nRange": [
+            4,
+            8
+          ],
+          "tupleSemantics": "distinct ordered variables; forbidden support canonicalized"
+        },
+        "optimum": 5,
+        "witness": [
+          1,
+          3,
+          4,
+          6,
+          8
+        ],
+        "residueProfiles": {
+          "2": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "3": [
+            [
+              2,
+              1,
+              2
+            ],
+            [
+              2,
+              2,
+              1
+            ]
+          ]
+        }
+      },
+      "evidenceHash": "sha256:af0dcbc3c0188579a9a65069ca2d328e0b51e9287fe744f3a22aafc2eda1e395"
+    },
+    {
+      "operator": "tie_break",
+      "adapterFamily": "STRUCTURAL_REPLAY",
+      "status": "EXECUTED_ON_BOUNDARY",
+      "evidence": {
+        "atlasHash": "sha256:073ced84312db248701fc95716041cc0de53318389b26cc33f9981233cdc5bfd",
+        "boundary": {
+          "kind": "bounded_canonical_Ck_micro_atlas",
+          "k": 3,
+          "nRange": [
+            4,
+            8
+          ],
+          "tupleSemantics": "distinct ordered variables; forbidden support canonicalized"
+        },
+        "optimum": 5,
+        "witness": [
+          1,
+          3,
+          4,
+          6,
+          8
+        ],
+        "residueProfiles": {
+          "2": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "3": [
+            [
+              2,
+              1,
+              2
+            ],
+            [
+              2,
+              2,
+              1
+            ]
+          ]
+        }
+      },
+      "evidenceHash": "sha256:af0dcbc3c0188579a9a65069ca2d328e0b51e9287fe744f3a22aafc2eda1e395"
+    },
+    {
+      "operator": "seal",
+      "adapterFamily": "STRUCTURAL_REPLAY",
+      "status": "EXECUTED_ON_BOUNDARY",
+      "evidence": {
+        "atlasHash": "sha256:073ced84312db248701fc95716041cc0de53318389b26cc33f9981233cdc5bfd",
+        "boundary": {
+          "kind": "bounded_canonical_Ck_micro_atlas",
+          "k": 3,
+          "nRange": [
+            4,
+            8
+          ],
+          "tupleSemantics": "distinct ordered variables; forbidden support canonicalized"
+        },
+        "optimum": 5,
+        "witness": [
+          1,
+          3,
+          4,
+          6,
+          8
+        ],
+        "residueProfiles": {
+          "2": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "3": [
+            [
+              2,
+              1,
+              2
+            ],
+            [
+              2,
+              2,
+              1
+            ]
+          ]
+        }
+      },
+      "evidenceHash": "sha256:af0dcbc3c0188579a9a65069ca2d328e0b51e9287fe744f3a22aafc2eda1e395"
+    }
+  ],
+  "microAtlas": {
+    "boundary": {
+      "kind": "bounded_canonical_Ck_micro_atlas",
+      "k": 3,
+      "nRange": [
+        4,
+        8
+      ],
+      "tupleSemantics": "distinct ordered variables; forbidden support canonicalized"
+    },
+    "rows": [
+      {
+        "n": 4,
+        "k": 3,
+        "coefficients": [
+          1,
+          -3,
+          3,
+          -1
+        ],
+        "forbiddenSupports": 1,
+        "optimum": 3,
+        "extremizers": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            4
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            4
+          ]
+        ],
+        "extremizerCount": 4
+      },
+      {
+        "n": 5,
+        "k": 3,
+        "coefficients": [
+          1,
+          -3,
+          3,
+          -1
+        ],
+        "forbiddenSupports": 2,
+        "optimum": 4,
+        "extremizers": [
+          [
+            1,
+            2,
+            3,
+            5
+          ],
+          [
+            1,
+            2,
+            4,
+            5
+          ],
+          [
+            1,
+            3,
+            4,
+            5
+          ]
+        ],
+        "extremizerCount": 3
+      },
+      {
+        "n": 6,
+        "k": 3,
+        "coefficients": [
+          1,
+          -3,
+          3,
+          -1
+        ],
+        "forbiddenSupports": 5,
+        "optimum": 4,
+        "extremizers": [
+          [
+            1,
+            2,
+            3,
+            5
+          ],
+          [
+            1,
+            2,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            4,
+            6
+          ],
+          [
+            1,
+            2,
+            5,
+            6
+          ],
+          [
+            1,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            3,
+            4,
+            6
+          ],
+          [
+            1,
+            3,
+            5,
+            6
+          ],
+          [
+            2,
+            3,
+            4,
+            6
+          ],
+          [
+            2,
+            3,
+            5,
+            6
+          ],
+          [
+            2,
+            4,
+            5,
+            6
+          ]
+        ],
+        "extremizerCount": 10
+      },
+      {
+        "n": 7,
+        "k": 3,
+        "coefficients": [
+          1,
+          -3,
+          3,
+          -1
+        ],
+        "forbiddenSupports": 11,
+        "optimum": 4,
+        "extremizers": [
+          [
+            1,
+            2,
+            3,
+            5
+          ],
+          [
+            1,
+            2,
+            3,
+            7
+          ],
+          [
+            1,
+            2,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            4,
+            6
+          ],
+          [
+            1,
+            2,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            5,
+            7
+          ],
+          [
+            1,
+            2,
+            6,
+            7
+          ],
+          [
+            1,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            3,
+            4,
+            6
+          ],
+          [
+            1,
+            3,
+            4,
+            7
+          ],
+          [
+            1,
+            3,
+            5,
+            6
+          ],
+          [
+            1,
+            3,
+            6,
+            7
+          ],
+          [
+            1,
+            4,
+            5,
+            7
+          ],
+          [
+            1,
+            5,
+            6,
+            7
+          ],
+          [
+            2,
+            3,
+            4,
+            6
+          ],
+          [
+            2,
+            3,
+            5,
+            6
+          ],
+          [
+            2,
+            3,
+            5,
+            7
+          ],
+          [
+            2,
+            3,
+            6,
+            7
+          ],
+          [
+            2,
+            4,
+            5,
+            6
+          ],
+          [
+            2,
+            4,
+            5,
+            7
+          ],
+          [
+            2,
+            4,
+            6,
+            7
+          ],
+          [
+            3,
+            4,
+            5,
+            7
+          ],
+          [
+            3,
+            4,
+            6,
+            7
+          ],
+          [
+            3,
+            5,
+            6,
+            7
+          ]
+        ],
+        "extremizerCount": 24
+      },
+      {
+        "n": 8,
+        "k": 3,
+        "coefficients": [
+          1,
+          -3,
+          3,
+          -1
+        ],
+        "forbiddenSupports": 21,
+        "optimum": 5,
+        "extremizers": [
+          [
+            1,
+            3,
+            4,
+            6,
+            8
+          ],
+          [
+            1,
+            3,
+            5,
+            6,
+            8
+          ]
+        ],
+        "extremizerCount": 2
+      }
+    ],
+    "optimumSequence": [
+      3,
+      4,
+      4,
+      4,
+      5
+    ],
+    "reflectionOrbitCount": 1,
+    "residueProfiles": {
+      "2": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "3": [
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ]
+    },
+    "atlasHash": "sha256:073ced84312db248701fc95716041cc0de53318389b26cc33f9981233cdc5bfd"
+  },
+  "independentVerification": {
+    "passed": true,
+    "errors": [],
+    "checker": "oca_wave_adapters.independent_verify"
+  },
+  "successCondition": "A verifiable target-selection receipt.",
+  "successConditionClosed": false,
+  "hardFailCondition": "Historical result knowledge influences selection.",
+  "claimBoundary": "Every declared operator executed on the recorded bounded C_k micro-atlas. This receipt does not claim the original-scale success condition; that condition remains the next typed obligation.",
+  "nextObligation": {
+    "statement": "A verifiable target-selection receipt.",
+    "requiredBoundary": "original_target_or_proof_scope",
+    "sourceAttack": "OCG-105"
+  },
+  "resultHash": "sha256:e412b5843cca6d50ae81d1b338b8028c3466a80059cedd13abae5ac74247e487",
+  "launchRank": 9,
+  "startedAt": "2026-07-29T20:22:23.240963+00:00",
+  "finishedAt": "2026-07-29T20:22:23.244129+00:00",
+  "operatorControl": "deterministic_adapter"
+}

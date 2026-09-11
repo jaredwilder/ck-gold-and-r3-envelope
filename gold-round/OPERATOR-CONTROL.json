@@ -1,0 +1,6 @@
+{
+  "schema": "oracle.gold-round.operator-control.v1",
+  "action": "run",
+  "updatedAt": "2026-07-29T20:22:23.189992+00:00",
+  "source": "operator-cli"
+}

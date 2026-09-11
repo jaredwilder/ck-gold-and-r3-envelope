@@ -1,0 +1,1350 @@
+[
+  {
+    "id": "OCG-097",
+    "family": "09_feeder_replay",
+    "family_name": "External Theory Feeder and Replay",
+    "family_scope": "Gemini, Sonar, or other external theory suggestions",
+    "replay_signature": "untrusted theory seeds compiled into deterministic Oracle blades",
+    "title": "Theory claim atomizer",
+    "question": "Can free-form theory be decomposed into checkable atoms?",
+    "deterministic_attack": "Parse every statement into assumptions, transformations, conclusions, proof obligations, and dependencies; reject unscoped prose claims.",
+    "success_condition": "A typed dependency DAG with no claim bypass.",
+    "hard_fail_condition": "Narrative text reaches runtime or publication without an obligation.",
+    "theorem_prize": "theory compiler infrastructure",
+    "operators": [
+      "parse",
+      "atomize",
+      "dag_validate"
+    ],
+    "priority": "P0",
+    "cost": "medium",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 12,
+    "launch_rank": 1
+  },
+  {
+    "id": "OCG-098",
+    "family": "09_feeder_replay",
+    "family_name": "External Theory Feeder and Replay",
+    "family_scope": "Gemini, Sonar, or other external theory suggestions",
+    "replay_signature": "untrusted theory seeds compiled into deterministic Oracle blades",
+    "title": "Analogy/equivalence hard gate",
+    "question": "Is each conceptual link identity, implication, analogy, or metaphor?",
+    "deterministic_attack": "Force a relation type and generate counterexample probes for every stronger interpretation.",
+    "success_condition": "No analogy is promoted as equivalence.",
+    "hard_fail_condition": "Ambiguous language such as ‘corresponds’ survives.",
+    "theorem_prize": "epistemic safety gate",
+    "operators": [
+      "relation_type",
+      "counterexample_probe",
+      "gate"
+    ],
+    "priority": "P0",
+    "cost": "low",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 12,
+    "launch_rank": 2
+  },
+  {
+    "id": "OCG-099",
+    "family": "09_feeder_replay",
+    "family_name": "External Theory Feeder and Replay",
+    "family_scope": "Gemini, Sonar, or other external theory suggestions",
+    "replay_signature": "untrusted theory seeds compiled into deterministic Oracle blades",
+    "title": "Source metadata hard gate",
+    "question": "Can every literature claim be audited?",
+    "deterministic_attack": "Require URL/DOI, theorem or page location, exact hypothesis summary, retrieval time, and content hash.",
+    "success_condition": "Untraceable citations are automatically downgraded to leads.",
+    "hard_fail_condition": "Numbered citations without metadata are accepted.",
+    "theorem_prize": "novelty integrity gate",
+    "operators": [
+      "source_fetch",
+      "metadata_check",
+      "hash"
+    ],
+    "priority": "P0",
+    "cost": "medium",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 12,
+    "launch_rank": 3
+  },
+  {
+    "id": "OCG-100",
+    "family": "09_feeder_replay",
+    "family_name": "External Theory Feeder and Replay",
+    "family_scope": "Gemini, Sonar, or other external theory suggestions",
+    "replay_signature": "untrusted theory seeds compiled into deterministic Oracle blades",
+    "title": "Mechanism compiler",
+    "question": "Can a feeder idea become a pure deterministic operator DAG?",
+    "deterministic_attack": "Map every proposed step to a versioned operator; reject unsupported reasoning; derive all parameters from target features.",
+    "success_condition": "A runnable blade with no external AI call at execution time.",
+    "hard_fail_condition": "Natural-language reasoning remains in runtime.",
+    "theorem_prize": "attack-compounding infrastructure",
+    "operators": [
+      "operator_map",
+      "dag_emit",
+      "parameter_rule",
+      "runtime_audit"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 15,
+    "launch_rank": 4
+  },
+  {
+    "id": "OCG-101",
+    "family": "09_feeder_replay",
+    "family_name": "External Theory Feeder and Replay",
+    "family_scope": "Gemini, Sonar, or other external theory suggestions",
+    "replay_signature": "untrusted theory seeds compiled into deterministic Oracle blades",
+    "title": "Assumption proving router",
+    "question": "Which feeder assumptions are proved, finitely checked, false, or unresolved?",
+    "deterministic_attack": "Route atoms to symbolic, exhaustive, SAT/ILP, formal, or primary-source checkers while preserving four-valued status.",
+    "success_condition": "Every assumption has evidence and status.",
+    "hard_fail_condition": "Finite checking is promoted to an unrestricted proof.",
+    "theorem_prize": "epistemic contract",
+    "operators": [
+      "route",
+      "prove",
+      "check",
+      "refute"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 11,
+    "launch_rank": 5
+  },
+  {
+    "id": "OCG-102",
+    "family": "09_feeder_replay",
+    "family_name": "External Theory Feeder and Replay",
+    "family_scope": "Gemini, Sonar, or other external theory suggestions",
+    "replay_signature": "untrusted theory seeds compiled into deterministic Oracle blades",
+    "title": "Micro-instance gauntlet",
+    "question": "Does the compiled blade behave correctly on known cases?",
+    "deterministic_attack": "Generate positive, negative, boundary, degenerate, and semantics-variant microinstances and compare to exact truth.",
+    "success_condition": "Perfect expected behavior or rejection before scaling.",
+    "hard_fail_condition": "Only positive examples are tested.",
+    "theorem_prize": "validation gate",
+    "operators": [
+      "microgen",
+      "exact_oracle",
+      "differential_test"
+    ],
+    "priority": "P0",
+    "cost": "medium",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 12,
+    "launch_rank": 6
+  },
+  {
+    "id": "OCG-103",
+    "family": "09_feeder_replay",
+    "family_name": "External Theory Feeder and Replay",
+    "family_scope": "Gemini, Sonar, or other external theory suggestions",
+    "replay_signature": "untrusted theory seeds compiled into deterministic Oracle blades",
+    "title": "Causal ablation",
+    "question": "Which part of the feeder theory creates the gain?",
+    "deterministic_attack": "Remove each assumption and operator; rerun identical targets and budgets; compare theorem status and proof size.",
+    "success_condition": "A minimal causal blade or evidence the feed added nothing.",
+    "hard_fail_condition": "Technique count earns credit without measured necessity.",
+    "theorem_prize": "mechanism validation",
+    "operators": [
+      "ablate",
+      "matched_benchmark",
+      "minimalize"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 11,
+    "launch_rank": 7
+  },
+  {
+    "id": "OCG-104",
+    "family": "09_feeder_replay",
+    "family_name": "External Theory Feeder and Replay",
+    "family_scope": "Gemini, Sonar, or other external theory suggestions",
+    "replay_signature": "untrusted theory seeds compiled into deterministic Oracle blades",
+    "title": "Frozen parameter derivation",
+    "question": "Can replay parameters be chosen without human tuning?",
+    "deterministic_attack": "Express every parameter as a deterministic function of target features and hash the rule before target selection.",
+    "success_condition": "Second-target replay uses only predeclared derivations.",
+    "hard_fail_condition": "Constants are altered after outcomes are seen.",
+    "theorem_prize": "replay integrity gate",
+    "operators": [
+      "derive_rule",
+      "seal",
+      "audit"
+    ],
+    "priority": "P0",
+    "cost": "medium",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 12,
+    "launch_rank": 8
+  },
+  {
+    "id": "OCG-105",
+    "family": "09_feeder_replay",
+    "family_name": "External Theory Feeder and Replay",
+    "family_scope": "Gemini, Sonar, or other external theory suggestions",
+    "replay_signature": "untrusted theory seeds compiled into deterministic Oracle blades",
+    "title": "Blind second-target selector",
+    "question": "Can Oracle choose a transfer target without outcome knowledge?",
+    "deterministic_attack": "Match trigger predicates over the registry, apply preregistered tie-breakers, and seal the selected target before running.",
+    "success_condition": "A verifiable target-selection receipt.",
+    "hard_fail_condition": "Historical result knowledge influences selection.",
+    "theorem_prize": "transfer integrity gate",
+    "operators": [
+      "signature_match",
+      "tie_break",
+      "seal"
+    ],
+    "priority": "P0",
+    "cost": "medium",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 12,
+    "launch_rank": 9
+  },
+  {
+    "id": "OCG-106",
+    "family": "09_feeder_replay",
+    "family_name": "External Theory Feeder and Replay",
+    "family_scope": "Gemini, Sonar, or other external theory suggestions",
+    "replay_signature": "untrusted theory seeds compiled into deterministic Oracle blades",
+    "title": "Negative-transfer atlas",
+    "question": "Where does the blade fail, and are failures predictable?",
+    "deterministic_attack": "Replay over matched and deliberately mismatched signatures; retain nulls, false predictions, and failed preconditions.",
+    "success_condition": "A calibrated applicability boundary.",
+    "hard_fail_condition": "Only successful transfers are stored.",
+    "theorem_prize": "transfer-science result",
+    "operators": [
+      "batch_replay",
+      "failure_label",
+      "boundary_model"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 11,
+    "launch_rank": 10
+  },
+  {
+    "id": "OCG-107",
+    "family": "09_feeder_replay",
+    "family_name": "External Theory Feeder and Replay",
+    "family_scope": "Gemini, Sonar, or other external theory suggestions",
+    "replay_signature": "untrusted theory seeds compiled into deterministic Oracle blades",
+    "title": "Doctrine promotion contract",
+    "question": "When does a blade become permanent Oracle knowledge?",
+    "deterministic_attack": "Require original win, blind replay win, causal ablation, negative-boundary calibration, independent checker, and immutable provenance.",
+    "success_condition": "A versioned promotion or rejection receipt.",
+    "hard_fail_condition": "A single-target success is promoted as universal.",
+    "theorem_prize": "knowledge-ratchet contract",
+    "operators": [
+      "scorecard",
+      "promotion_gate",
+      "version"
+    ],
+    "priority": "P0",
+    "cost": "low",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 12,
+    "launch_rank": 11
+  },
+  {
+    "id": "OCG-108",
+    "family": "09_feeder_replay",
+    "family_name": "External Theory Feeder and Replay",
+    "family_scope": "Gemini, Sonar, or other external theory suggestions",
+    "replay_signature": "untrusted theory seeds compiled into deterministic Oracle blades",
+    "title": "Feeder championship",
+    "question": "Which model produces the most transferable mechanisms per dollar?",
+    "deterministic_attack": "Submit identical sealed packets; score source validity, compile rate, original theorem win, blind transfer win, false-claim rate, and exact cost.",
+    "success_condition": "A reproducible benchmark where prose quality earns no direct credit.",
+    "hard_fail_condition": "Models receive unequal context or cherry-picked targets.",
+    "theorem_prize": "methodology benchmark",
+    "operators": [
+      "sealed_packets",
+      "multi_model",
+      "compile_score",
+      "cost_account"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 11,
+    "launch_rank": 12
+  },
+  {
+    "id": "OCG-133",
+    "family": "12_gold_bets",
+    "family_name": "Twelve Gold Bets",
+    "family_scope": "the highest-upside theorem campaigns",
+    "replay_signature": "admission requires a reusable mechanism, proof boundary, and independent certification",
+    "title": "Gold 1 — C3 breakpoint structure",
+    "question": "Can Oracle explain the 11 plateau and the birth of 12?",
+    "deterministic_attack": "Combine complete extremizer census, blocker motifs, gap/residue invariants, and proof compression; reject table-only output.",
+    "success_condition": "A multi-N structural theorem characterizing the first 12-set mechanism.",
+    "hard_fail_condition": "Only constants and certificates are produced.",
+    "theorem_prize": "flagship structural theorem",
+    "operators": [
+      "all_optima",
+      "mechanism_mine",
+      "proof_compact",
+      "formalize"
+    ],
+    "priority": "P0",
+    "cost": "very_high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 17,
+    "launch_rank": 13
+  },
+  {
+    "id": "OCG-134",
+    "family": "12_gold_bets",
+    "family_name": "Twelve Gold Bets",
+    "family_scope": "the highest-upside theorem campaigns",
+    "replay_signature": "admission requires a reusable mechanism, proof boundary, and independent certification",
+    "title": "Gold 2 — C6 plateau classification",
+    "question": "Can every C6 optimum on 9≤N≤15 be classified and the endpoint explained?",
+    "deterministic_attack": "Complete all-optima enumeration, grammar induction, proof of completeness, and endpoint mechanism.",
+    "success_condition": "A classification plus plateau endpoint theorem.",
+    "hard_fail_condition": "Selected examples replace a census.",
+    "theorem_prize": "flagship classification theorem",
+    "operators": [
+      "all_optima",
+      "grammar",
+      "endpoint",
+      "formalize"
+    ],
+    "priority": "P0",
+    "cost": "very_high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 17,
+    "launch_rank": 14
+  },
+  {
+    "id": "OCG-135",
+    "family": "12_gold_bets",
+    "family_name": "Twelve Gold Bets",
+    "family_scope": "the highest-upside theorem campaigns",
+    "replay_signature": "admission requires a reusable mechanism, proof boundary, and independent certification",
+    "title": "Gold 3 — Uniform Pascal obstruction",
+    "question": "Can one k-parameter lemma cover C4–C6 or more?",
+    "deterministic_attack": "Anti-unify proof motifs and solve symbolic coefficient conditions.",
+    "success_condition": "One genuine cross-order theorem.",
+    "hard_fail_condition": "The result is a disguised finite case list.",
+    "theorem_prize": "flagship cross-order theorem",
+    "operators": [
+      "core_antiunify",
+      "symbolic_k",
+      "proof"
+    ],
+    "priority": "P0",
+    "cost": "very_high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 17,
+    "launch_rank": 15
+  },
+  {
+    "id": "OCG-136",
+    "family": "12_gold_bets",
+    "family_name": "Twelve Gold Bets",
+    "family_scope": "the highest-upside theorem campaigns",
+    "replay_signature": "admission requires a reusable mechanism, proof boundary, and independent certification",
+    "title": "Gold 4 — Infinite Ck-free family",
+    "question": "Can finite evidence yield a nontrivial all-N construction?",
+    "deterministic_attack": "Tournament every construction paradigm and formally prove the winner.",
+    "success_condition": "An explicit infinite family with a rigorous size bound.",
+    "hard_fail_condition": "Only finite witnesses result.",
+    "theorem_prize": "flagship infinite theorem",
+    "operators": [
+      "construction_tournament",
+      "symbolic_proof",
+      "formalize"
+    ],
+    "priority": "P0",
+    "cost": "very_high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 17,
+    "launch_rank": 16
+  },
+  {
+    "id": "OCG-137",
+    "family": "12_gold_bets",
+    "family_name": "Twelve Gold Bets",
+    "family_scope": "the highest-upside theorem campaigns",
+    "replay_signature": "admission requires a reusable mechanism, proof boundary, and independent certification",
+    "title": "Gold 5 — Sidon–C3 mechanism",
+    "question": "Can non-binding be explained rather than tabulated?",
+    "deterministic_attack": "Prove a repair map, sufficient condition, or infinite construction while separating existential and universal claims.",
+    "success_condition": "A meaningful-range or infinite interaction theorem.",
+    "hard_fail_condition": "Joint values through 50 are the only output.",
+    "theorem_prize": "flagship interaction theorem",
+    "operators": [
+      "all_sidon",
+      "repair",
+      "condition_proof",
+      "formalize"
+    ],
+    "priority": "P0",
+    "cost": "very_high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 17,
+    "launch_rank": 17
+  },
+  {
+    "id": "OCG-138",
+    "family": "12_gold_bets",
+    "family_name": "Twelve Gold Bets",
+    "family_scope": "the highest-upside theorem campaigns",
+    "replay_signature": "admission requires a reusable mechanism, proof boundary, and independent certification",
+    "title": "Gold 6 — C2–C3 synergy",
+    "question": "Can Oracle prove a genuinely mixed theorem?",
+    "deterministic_attack": "Find minimal mixed cores, quantify synergy, and derive an inequality or classification.",
+    "success_condition": "A theorem not implied by either marginal system.",
+    "hard_fail_condition": "One constraint alone explains the result.",
+    "theorem_prize": "flagship interaction theorem",
+    "operators": [
+      "mixed_core",
+      "synergy",
+      "proof"
+    ],
+    "priority": "P0",
+    "cost": "very_high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 17,
+    "launch_rank": 18
+  },
+  {
+    "id": "OCG-139",
+    "family": "12_gold_bets",
+    "family_name": "Twelve Gold Bets",
+    "family_scope": "the highest-upside theorem campaigns",
+    "replay_signature": "admission requires a reusable mechanism, proof boundary, and independent certification",
+    "title": "Gold 7 — Coefficient universality class",
+    "question": "Can dozens of mutation findings collapse into one parametric theorem?",
+    "deterministic_attack": "Build phase cells, common grammars, and proof triggers; prove one nontrivial class.",
+    "success_condition": "A theorem covering many coefficient vectors.",
+    "hard_fail_condition": "The class remains empirical clustering.",
+    "theorem_prize": "flagship universality theorem",
+    "operators": [
+      "phase_arrangement",
+      "classify",
+      "uniform_proof"
+    ],
+    "priority": "P0",
+    "cost": "very_high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 17,
+    "launch_rank": 19
+  },
+  {
+    "id": "OCG-140",
+    "family": "12_gold_bets",
+    "family_name": "Twelve Gold Bets",
+    "family_scope": "the highest-upside theorem campaigns",
+    "replay_signature": "admission requires a reusable mechanism, proof boundary, and independent certification",
+    "title": "Gold 8 — Finite-state extremal law",
+    "question": "Can a bounded state machine generate values, proofs, or extremizers?",
+    "deterministic_attack": "Infer states, minimize them, prove sufficiency, and blind-predict extensions.",
+    "success_condition": "A recurrence or automaton theorem with a successful held-out prediction.",
+    "hard_fail_condition": "The state memorizes N.",
+    "theorem_prize": "flagship recurrence theorem",
+    "operators": [
+      "state_infer",
+      "minimize",
+      "prove",
+      "blind_test"
+    ],
+    "priority": "P0",
+    "cost": "very_high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 17,
+    "launch_rank": 20
+  },
+  {
+    "id": "OCG-141",
+    "family": "12_gold_bets",
+    "family_name": "Twelve Gold Bets",
+    "family_scope": "the highest-upside theorem campaigns",
+    "replay_signature": "admission requires a reusable mechanism, proof boundary, and independent certification",
+    "title": "Gold 9 — Finite-to-infinite upper theorem",
+    "question": "Can a local certified obstruction yield an all-N bound?",
+    "deterministic_attack": "Use window averaging, container induction, or recursive certificates with explicit boundary corrections.",
+    "success_condition": "A general upper bound stronger than naive theory.",
+    "hard_fail_condition": "Cross-window structure is uncontrolled.",
+    "theorem_prize": "flagship all-N theorem",
+    "operators": [
+      "local_lemma",
+      "averaging",
+      "induction",
+      "formalize"
+    ],
+    "priority": "P0",
+    "cost": "very_high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 17,
+    "launch_rank": 21
+  },
+  {
+    "id": "OCG-142",
+    "family": "12_gold_bets",
+    "family_name": "Twelve Gold Bets",
+    "family_scope": "the highest-upside theorem campaigns",
+    "replay_signature": "admission requires a reusable mechanism, proof boundary, and independent certification",
+    "title": "Gold 10 — Human-sized proof",
+    "question": "Can a machine optimum become a compact mathematical proof?",
+    "deterministic_attack": "Run the proof-language tournament and require a transparent primitive ledger.",
+    "success_condition": "A proof auditable without rerunning the optimizer.",
+    "hard_fail_condition": "Prose hides a large case table.",
+    "theorem_prize": "flagship proof-method theorem",
+    "operators": [
+      "proof_tournament",
+      "compress",
+      "audit"
+    ],
+    "priority": "P0",
+    "cost": "very_high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 17,
+    "launch_rank": 22
+  },
+  {
+    "id": "OCG-143",
+    "family": "12_gold_bets",
+    "family_name": "Twelve Gold Bets",
+    "family_scope": "the highest-upside theorem campaigns",
+    "replay_signature": "admission requires a reusable mechanism, proof boundary, and independent certification",
+    "title": "Gold 11 — Source-audited new theorem",
+    "question": "Can one structural result survive a full historical-priority audit?",
+    "deterministic_attack": "Complete primary-source and independent novelty dossiers after the theorem itself is established.",
+    "success_condition": "A defensible novelty claim with explicit coverage limits.",
+    "hard_fail_condition": "Priority rests on uncited model synthesis.",
+    "theorem_prize": "flagship novelty result",
+    "operators": [
+      "full_lit_audit",
+      "replicate",
+      "dossier"
+    ],
+    "priority": "P0",
+    "cost": "very_high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 17,
+    "launch_rank": 23
+  },
+  {
+    "id": "OCG-144",
+    "family": "12_gold_bets",
+    "family_name": "Twelve Gold Bets",
+    "family_scope": "the highest-upside theorem campaigns",
+    "replay_signature": "admission requires a reusable mechanism, proof boundary, and independent certification",
+    "title": "Gold 12 — First attack-compounding victory",
+    "question": "Can one external theory seed solve two problems with zero second inference?",
+    "deterministic_attack": "Seal seed, compile deterministic operators, prove assumptions, win target one, blind-select target two, replay identical blade, and independently certify both.",
+    "success_condition": "One immutable blade hash, two theorem receipts, and a calibrated failure boundary.",
+    "hard_fail_condition": "Any theory edit, manual retuning, cherry-picking, or unproved assumption occurs.",
+    "theorem_prize": "flagship transferred-theory theorem",
+    "operators": [
+      "seed_compile",
+      "ablate",
+      "blind_select",
+      "frozen_replay",
+      "dual_certify"
+    ],
+    "priority": "P0",
+    "cost": "very_high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 17,
+    "launch_rank": 24
+  },
+  {
+    "id": "OCG-001",
+    "family": "01_c3_breakpoint",
+    "family_name": "C3 Breakpoint Mechanisms",
+    "family_scope": "C3 exact frontier and the observed 11-to-12 transition",
+    "replay_signature": "C3 interval plateau with complete exact witnesses and upper certificates",
+    "title": "C3 45–52 extension obstruction",
+    "question": "What exactly prevents a 12-set before the first certified 12-set?",
+    "deterministic_attack": "Enumerate every 11-extremizer on each exact N in the 45–52 strip; build extension graphs to all later coordinates; quotient blockers by reflection and equality type; solve a minimum motif cover.",
+    "success_condition": "A finite obstruction list proving the complete 11-plateau and identifying the first admissible 12-set motif.",
+    "hard_fail_condition": "The cover depends on sampled extremizers, solver branching, or N-specific clauses with no invariant form.",
+    "theorem_prize": "breakpoint mechanism theorem",
+    "operators": [
+      "all_optima",
+      "extension_graph",
+      "orbit_quotient",
+      "minimum_cover"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 13,
+    "launch_rank": 25
+  },
+  {
+    "id": "OCG-002",
+    "family": "01_c3_breakpoint",
+    "family_name": "C3 Breakpoint Mechanisms",
+    "family_scope": "C3 exact frontier and the observed 11-to-12 transition",
+    "replay_signature": "C3 interval plateau with complete exact witnesses and upper certificates",
+    "title": "Minimal 12-set birth certificate",
+    "question": "Which new structural feature first permits cardinality 12?",
+    "deterministic_attack": "Enumerate all 12-extremizers at the first breakpoint; delete each element; compare every normalized deletion to all maximal 11-sets below the breakpoint.",
+    "success_condition": "A necessary-and-sufficient birth motif, or a complete finite list of distinct birth mechanisms.",
+    "hard_fail_condition": "Any certified 12-extremizer lacks the claimed motif.",
+    "theorem_prize": "classification theorem",
+    "operators": [
+      "all_optima",
+      "deletion_profile",
+      "canonicalize",
+      "completeness_check"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 13,
+    "launch_rank": 26
+  },
+  {
+    "id": "OCG-003",
+    "family": "01_c3_breakpoint",
+    "family_name": "C3 Breakpoint Mechanisms",
+    "family_scope": "C3 exact frontier and the observed 11-to-12 transition",
+    "replay_signature": "C3 interval plateau with complete exact witnesses and upper certificates",
+    "title": "C3 gap-budget inequality",
+    "question": "Can the upper bound 11 be proved by an inequality in consecutive gaps?",
+    "deterministic_attack": "Rewrite every C3 relation in partial sums of gaps; mine recurring gap clauses from independent UNSAT cores; solve for rational weights and verify symbolically.",
+    "success_condition": "A short checked inequality implying |A|≤11 throughout a declared interval.",
+    "hard_fail_condition": "The inequality excludes a valid extremizer or merely encodes a full case table.",
+    "theorem_prize": "human-sized upper-bound lemma",
+    "operators": [
+      "gap_transform",
+      "core_mining",
+      "lp_dual",
+      "symbolic_check"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 11,
+    "launch_rank": 27
+  },
+  {
+    "id": "OCG-013",
+    "family": "02_higher_order_plateaus",
+    "family_name": "C4–C6 Plateau and Hierarchy",
+    "family_scope": "C4 exact transitions, C5 equality points, and the reported C6 plateau",
+    "replay_signature": "alternating Pascal-row equations under frozen arbitrary-tuple semantics",
+    "title": "C6 plateau complete classification",
+    "question": "What are all C6 extremizers on 9≤N≤15?",
+    "deterministic_attack": "Enumerate every optimum, quotient by reflection and compatible embeddings, infer a canonical gap grammar, and prove completeness.",
+    "success_condition": "A full archetype classification for the entire plateau.",
+    "hard_fail_condition": "Only representative constructions are classified.",
+    "theorem_prize": "plateau classification theorem",
+    "operators": [
+      "all_optima",
+      "orbit_quotient",
+      "gap_grammar",
+      "completeness"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 13,
+    "launch_rank": 28
+  },
+  {
+    "id": "OCG-014",
+    "family": "02_higher_order_plateaus",
+    "family_name": "C4–C6 Plateau and Hierarchy",
+    "family_scope": "C4 exact transitions, C5 equality points, and the reported C6 plateau",
+    "replay_signature": "alternating Pascal-row equations under frozen arbitrary-tuple semantics",
+    "title": "C6 endpoint mechanism",
+    "question": "Why does the 8-plateau end exactly where it ends?",
+    "deterministic_attack": "Build extension blockers from every 8-extremizer; find the first exact 9-set; compare minimal birth motifs to the blockers.",
+    "success_condition": "An exact endpoint theorem and a birth mechanism for size 9.",
+    "hard_fail_condition": "The endpoint relies on unresolved or skipped N.",
+    "theorem_prize": "plateau endpoint theorem",
+    "operators": [
+      "extension_cover",
+      "exact_frontier",
+      "birth_motif"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 13,
+    "launch_rank": 29
+  },
+  {
+    "id": "OCG-017",
+    "family": "02_higher_order_plateaus",
+    "family_name": "C4–C6 Plateau and Hierarchy",
+    "family_scope": "C4 exact transitions, C5 equality points, and the reported C6 plateau",
+    "replay_signature": "alternating Pascal-row equations under frozen arbitrary-tuple semantics",
+    "title": "Uniform Pascal obstruction",
+    "question": "Is one symbolic obstruction visible in C4, C5, and C6 proofs?",
+    "deterministic_attack": "Anti-unify minimal core orbits and gap motifs; lift coefficients to symbolic k; solve exact parameter conditions and verify every specialization.",
+    "success_condition": "One k-parameter lemma valid for at least three orders.",
+    "hard_fail_condition": "The result is only a list of separately checked cases.",
+    "theorem_prize": "cross-order theorem",
+    "operators": [
+      "core_antiunify",
+      "symbolic_k",
+      "specialization_check"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 13,
+    "launch_rank": 30
+  },
+  {
+    "id": "OCG-037",
+    "family": "04_intersections",
+    "family_name": "Sidon, C2, C3, and Constraint Intersections",
+    "family_scope": "exact intersection frontiers and non-binding phenomena",
+    "replay_signature": "multiple forbidden-equation hypergraphs on the same interval",
+    "title": "Sidon∩C3 existential theorem through 50",
+    "question": "Does some maximum Sidon set avoid C3 for every certified N?",
+    "deterministic_attack": "Certify the pure Sidon optimum independently and provide a joint witness at the same size for every N.",
+    "success_condition": "A gap-free exact existential non-binding theorem.",
+    "hard_fail_condition": "The Sidon upper bound is uncertified or some N is skipped.",
+    "theorem_prize": "exact intersection theorem",
+    "operators": [
+      "sidon_exact",
+      "joint_witness",
+      "independent_check"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 13,
+    "launch_rank": 31
+  },
+  {
+    "id": "OCG-040",
+    "family": "04_intersections",
+    "family_name": "Sidon, C2, C3, and Constraint Intersections",
+    "family_scope": "exact intersection frontiers and non-binding phenomena",
+    "replay_signature": "multiple forbidden-equation hypergraphs on the same interval",
+    "title": "Sidon-compatible C3 anatomy",
+    "question": "Which C3 solutions can survive Sidon difference uniqueness?",
+    "deterministic_attack": "Solve both equation systems symbolically under every equality partition and reduce solutions to canonical parameter forms.",
+    "success_condition": "A complete classification of Sidon-compatible C3 violations.",
+    "hard_fail_condition": "Degenerate and nontrivial semantics are mixed.",
+    "theorem_prize": "interaction classification theorem",
+    "operators": [
+      "symbolic_solve",
+      "partition_audit",
+      "canonicalize"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 13,
+    "launch_rank": 32
+  },
+  {
+    "id": "OCG-049",
+    "family": "05_coefficient_classes",
+    "family_name": "Coefficient Mutation Universality",
+    "family_scope": "the broad corpus of exact coefficient-mutation findings",
+    "replay_signature": "primitive zero-sum coefficient vectors under canonical semantics",
+    "title": "Coefficient canonical quotient",
+    "question": "Which coefficient vectors define equivalent problem families?",
+    "deterministic_attack": "Normalize gcd, sign, reversal, zero trimming, and only semantics-preserving permutations; prove each equivalence.",
+    "success_condition": "A canonical form with theorem-backed collision tests.",
+    "hard_fail_condition": "An ordered-coordinate permutation is treated as harmless without proof.",
+    "theorem_prize": "foundational classification theorem",
+    "operators": [
+      "normalize",
+      "equivalence_proof",
+      "hash_test"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 13,
+    "launch_rank": 33
+  },
+  {
+    "id": "OCG-060",
+    "family": "05_coefficient_classes",
+    "family_name": "Coefficient Mutation Universality",
+    "family_scope": "the broad corpus of exact coefficient-mutation findings",
+    "replay_signature": "primitive zero-sum coefficient vectors under canonical semantics",
+    "title": "Blind class transfer",
+    "question": "Can a theorem learned on a coefficient class solve a held-out vector?",
+    "deterministic_attack": "Freeze the class definition and proof blade; select a vector by invariants only; replay without edits.",
+    "success_condition": "A certified held-out result and an honest class boundary.",
+    "hard_fail_condition": "The held-out vector influenced class formation.",
+    "theorem_prize": "transferred universality victory",
+    "operators": [
+      "freeze_class",
+      "select_holdout",
+      "replay",
+      "certify"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 15,
+    "launch_rank": 34
+  },
+  {
+    "id": "OCG-063",
+    "family": "06_pascal_transfer",
+    "family_name": "Pascal Recursion and Cross-Order Blades",
+    "family_scope": "adjacent alternating Pascal rows",
+    "replay_signature": "coefficient identities plus explicit set-membership guards",
+    "title": "Cross-order violation inequality",
+    "question": "Can C{k+1} violations be bounded through Ck violation data?",
+    "deterministic_attack": "Compute joint support incidence; search rational charging maps; prove via double counting.",
+    "success_condition": "A nontrivial quantitative inequality or a sharp no-go family.",
+    "hard_fail_condition": "Empirical correlation is reported as implication.",
+    "theorem_prize": "cross-order quantitative theorem",
+    "operators": [
+      "joint_incidence",
+      "charging_search",
+      "double_count"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 13,
+    "launch_rank": 35
+  },
+  {
+    "id": "OCG-084",
+    "family": "07_constructions",
+    "family_name": "Infinite Constructions and Lower Bounds",
+    "family_scope": "finite motifs, residues, fields, digits, and recursive blocks",
+    "replay_signature": "explicit deterministic constructions for fixed coefficient equations",
+    "title": "Blind constructor transfer",
+    "question": "Can one constructor blade prove results for two coefficient families?",
+    "deterministic_attack": "Compile carry, dominance, or algebraic trigger predicates; select a compatible held-out vector; replay unchanged.",
+    "success_condition": "Two infinite lower-bound theorems sharing one immutable constructor.",
+    "hard_fail_condition": "The second construction is manually redesigned.",
+    "theorem_prize": "transferred construction victory",
+    "operators": [
+      "compile_constructor",
+      "signature_match",
+      "replay",
+      "prove"
+    ],
+    "priority": "P0",
+    "cost": "high",
+    "dependencies": [
+      "frozen_tuple_semantics",
+      "verifier_backed_findings",
+      "independent_constraint_generator",
+      "standalone_certificate_checker"
+    ],
+    "required_outputs": [
+      "claim.json",
+      "witness_or_counterexample.json",
+      "certificate_or_proof/",
+      "run_manifest.json",
+      "attack_report.md",
+      "failure_boundary.json"
+    ],
+    "promotion_rule": "No theorem credit without independently checked quantified claims. No transfer credit unless the blade, parameter rule, and second-target selector were sealed before the second execution.",
+    "gold_score": 15,
+    "launch_rank": 36
+  }
+]
